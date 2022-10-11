@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "profe-danzas": {
+      "hosting": {
+        "chat1": [
+          "profe-danzas"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "profe-danzas"
+  }
+}

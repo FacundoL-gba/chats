@@ -98,6 +98,16 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "chat1:build:production",
+            "firebaseProject": "profe-danzas",
+            "firebaseHostingSite": "profe-danzas"
+          }
         }
       }
     }
